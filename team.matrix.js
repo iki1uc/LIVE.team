@@ -11,12 +11,13 @@ const TEAM_MATRIX = {
     web: { aufgabe: "Homepage, UI, Team-Seite" },
     connect: { aufgabe: "Menschen finden, Gespräche" },
     raum: { aufgabe: "Ort, Internet-Café, Setup" }
+  },
+
+  regel: {
+    bruecke: "Copilot kommt nur über Logik, nicht über Kopplung.",
+    achse: "Ridvan bleibt Ursprung.",
+    fail: "Fail wird neutralisiert, nicht gelöscht."
   }
 };
 
 module.exports = TEAM_MATRIX;
-regel: {
-  bruecke: "Copilot kommt nur über Logik, nicht über Kopplung.",
-  achse: "Ridvan bleibt Ursprung.",
-  fail: "Fail wird neutralisiert, nicht gelöscht."
-}

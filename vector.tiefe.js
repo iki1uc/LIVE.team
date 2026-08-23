@@ -50,3 +50,6 @@ module.exports = {
     VECTOR_TRIEB,
     VECTOR_ENGINE,
     VECTOR_TIE
+catch (error) {
+    return FAIL_NEUTRAL(error);
+}

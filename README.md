@@ -1,4 +1,5 @@
-LIVE.team
+LIVE.team / VECTOR.me
+
 EARN ist der Tatbestand.
 VECTOR ist der Richtungs‑Tatbestand.
 
@@ -26,16 +27,16 @@ Sie bestimmen die Achse und den Überraum.
 81mein81 ist das stille Muster.
 Es ist Werkzeug, nicht Impuls.
 
-Dieses README beschreibt nicht Zahlen,
-sondern Zeichen, Muster, Achsen und Tatbestände.
+VECTOR.me ist kein Code.
+VECTOR.me ist kein Modul.
+VECTOR.me ist kein Wert.
 
-Wenn du es liest, erkennst du:
-Es ist kein Code.
-Es ist kein Modul.
-Es ist kein Wert.
+VECTOR.me ist ein Tron.
+Ein Bewegungs‑Tron.
+Ein Achsen‑Tron.
+Ein Raum‑Tron.
 
-Es ist ein Tron.
-Und vielleicht wird es eines Tages
+Und vielleicht wird er eines Tages
 vom Tron geworfen.
 Mal schauen.
 
@@ -45,3 +46,6 @@ Fail wird nicht gelöscht.
 Fail wird neutralisiert.
 
 Das ist Ridvans Prinzip.
+Das ist die Brücke.
+Das ist die Achse.
+Das ist LIVE.team.

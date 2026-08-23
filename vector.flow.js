@@ -75,3 +75,6 @@ function potenderVector(qi, iqq) {
 function abfallVector(qi, iqq) {
     try {
         const engine = ENGINE
+catch (error) {
+    return FAIL_NEUTRAL(error);
+}

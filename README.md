@@ -1,4 +1,4 @@
-# EARN / VECTOR.me
+LIVE.team / VECTOR.me
 
 EARN ist der Tatbestand.
 VECTOR ist der Richtungs‑Tatbestand.
@@ -39,3 +39,6 @@ Es ist ein Tron.
 Und vielleicht wird es eines Tages
 vom Tron geworfen.
 Mal schauen.
+Fail ist kein Fehler. Fail ist ein Impuls ohne Luft.
+Fail wird nicht gelöscht. Fail wird neutralisiert.
+Das ist Ridvans Prinzip.

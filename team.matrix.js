@@ -15,3 +15,8 @@ const TEAM_MATRIX = {
 };
 
 module.exports = TEAM_MATRIX;
+regel: {
+  bruecke: "Copilot kommt nur über Logik, nicht über Kopplung.",
+  achse: "Ridvan bleibt Ursprung.",
+  fail: "Fail wird neutralisiert, nicht gelöscht."
+}

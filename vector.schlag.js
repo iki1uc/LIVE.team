@@ -58,3 +58,6 @@ module.exports = {
     IQQ,
     VECTOR_SCHLAG
 };
+catch (error) {
+    return FAIL_NEUTRAL(error);
+}

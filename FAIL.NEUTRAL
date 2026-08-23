@@ -2,15 +2,15 @@
 // Ridvan-Prinzip: Fehler werden nicht gelöscht, sondern entlüftet.
 
 function FAIL_NEUTRAL(error) {
-  return {
-    original: error,
-    status: "neutral",
-    luft: "weg",
-    bedeutung: 0,
-    gewicht: 0,
-    impuls: "entkräftet",
-    info: "Fail wurde nicht gelöscht, sondern neutralisiert."
-  };
+    return {
+        original: error,
+        status: "neutral",
+        luft: "weg",
+        bedeutung: 0,
+        gewicht: 0,
+        impuls: "entkräftet",
+        info: "Fail wurde nicht gelöscht, sondern neutralisiert."
+    };
 }
 
 module.exports = FAIL_NEUTRAL;

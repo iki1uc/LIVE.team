@@ -67,3 +67,6 @@ module.exports = {
     IQQ,
     VECTOR_ENERGIE
 };
+catch (error) {
+    return FAIL_NEUTRAL(error);
+}

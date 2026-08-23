@@ -76,3 +76,6 @@ function VECTOR_ANKUNFT(qi, iqq) {
         return {
             typ: "vector.ankunft",
             energie
+catch (error) {
+    return FAIL_NEUTRAL(error);
+}

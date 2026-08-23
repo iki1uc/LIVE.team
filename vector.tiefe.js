@@ -1,36 +1,52 @@
 // vector.tiefe.js
 // Entschluss-Axiom – Tiefen-Engine
 
-// VECTOR.TRIEB = Impuls-Axiom
+const FAIL_NEUTRAL = require("./fail.neutral.js");
+
+// VECTOR.TRIEB = Impuls-Axiom (Höhe-Achse)
 function VECTOR_TRIEB(qi, iqq) {
-    return (qi - iqq); // Höhe-Achse
+    try {
+        return qi - iqq;
+    } catch (error) {
+        return FAIL_NEUTRAL(error);
+    }
 }
 
-// VECTOR.ENGINE = Kraft-Axiom
+// VECTOR.ENGINE = Kraft-Axiom (Breite-Achse)
 function VECTOR_ENGINE(qi, iqq) {
-    return (qi * 0.6) + (iqq * 0.4); // Breite-Achse
+    try {
+        return (qi * 0.6) + (iqq * 0.4);
+    } catch (error) {
+        return FAIL_NEUTRAL(error);
+    }
 }
 
-// VECTOR.TIEFE = Entschluss-Axiom
+// VECTOR.TIEFE = Entschluss-Axiom (Tiefe-Achse)
 function VECTOR_TIEFE(qi, iqq) {
-    const trieb = VECTOR_TRIEB(qi, iqq);
-    const engine = VECTOR_ENGINE(qi, iqq);
+    try {
+        const trieb = VECTOR_TRIEB(qi, iqq);
+        const engine = VECTOR_ENGINE(qi, iqq);
 
-    // Tiefe = Entscheidung zwischen Höhe und Breite
-    const tiefe = (trieb + engine) / 2;
+        // Tiefe = Entscheidung zwischen Höhe und Breite
+        const tiefe = (trieb + engine) / 2;
 
-    return {
-        typ: "vector.tiefe",
-        trieb,
-        engine,
-        tiefe,
-        ausgang: tiefe
-    };
+        return {
+            typ: "vector.tiefe",
+            trieb,
+            engine,
+            tiefe,
+            ausgang: tiefe,
+            achse: "9",          // Achse integriert
+            signatur: "4-8",     // Signatur integriert
+            muster: "81mein81"   // Muster integriert
+        };
+    } catch (error) {
+        return FAIL_NEUTRAL(error);
+    }
 }
 
 // Export
 module.exports = {
     VECTOR_TRIEB,
     VECTOR_ENGINE,
-    VECTOR_TIEFE
-};
+    VECTOR_TIE

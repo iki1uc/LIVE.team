@@ -32,3 +32,6 @@ module.exports = {
     IQQ,
     continuumZugang
 };
+catch (error) {
+    return FAIL_NEUTRAL(error);
+}

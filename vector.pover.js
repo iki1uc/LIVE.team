@@ -66,3 +66,6 @@ module.exports = {
     IQQ,
     VECTOR_POVER
 };
+catch (error) {
+    return FAIL_NEUTRAL(error);
+}
